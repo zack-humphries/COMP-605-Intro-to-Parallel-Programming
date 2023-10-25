@@ -1,0 +1,29 @@
+#!/bin/sh
+# batch.hellompi -- this example "serial" batch script requests 
+# and runs 4 processes on each of 2 "mpi" nodes
+
+# for more info on requesting specific node resources see
+# "man pbs_resources"
+
+# to be submitted via the qsub command,
+# as in, "qsub batch.hellompi"
+
+# the following are pbs/torque batch directives:
+#PBS -V
+#PBS -l nodes=1:ppn=2:mpi
+#PBS -N MonteCarlo
+#PBS -j oe
+#PBS -q batch
+
+# the following commands are run on a select node:
+cd $PBS_O_WORKDIR
+echo "batch.hellompi: running hellompi test..."
+NCORES=`wc -w < $PBS_NODEFILE`
+HOST=`hostname`
+LOCATION=`pwd`
+echo "batch.hellompi: running $NCORES processes from $HOST" 
+echo "batch.hellompi: cat-ing PBS nodes file:"
+echo "LOCATION== $LOCATION"
+cat $PBS_NODEFILE
+echo "application output follows..."
+mpirun -mca plm_rsh_agent rsh -np $NCORES -hostfile $PBS_NODEFILE ./main 100

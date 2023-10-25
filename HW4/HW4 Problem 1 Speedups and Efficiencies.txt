@@ -1,0 +1,220 @@
+--------------------------------------------------------------
+1 Processor
+--------------------------------------------------------------
+
+10^(5) tosses, using 1 processors...
+
+Estimating Pi through 100000 tosses
+
+Total Number in Circle: 78594
+Pi Estimation: 3.143760
+Parallel Process took 0.009542 seconds
+
+Serial Process took 0.010828 seconds
+Speedup is 1.134762
+Efficiency is 1.134762
+
+------------------------------------------------------------
+
+10^(6) tosses, using 1 processors...
+
+Estimating Pi through 1000000 tosses
+
+Total Number in Circle: 785718
+Pi Estimation: 3.142872
+Parallel Process took 0.064623 seconds
+
+Serial Process took 0.068868 seconds
+Speedup is 1.065678
+Efficiency is 1.065678
+
+------------------------------------------------------------
+
+10^(7) tosses, using 1 processors...
+
+Estimating Pi through 10000000 tosses
+
+Total Number in Circle: 7855640
+Pi Estimation: 3.142256
+Parallel Process took 0.398582 seconds
+
+Serial Process took 0.394238 seconds
+Speedup is 0.989102
+Efficiency is 0.989102
+
+------------------------------------------------------------
+
+10^(8) tosses, using 1 processors...
+
+Estimating Pi through 100000000 tosses
+
+Total Number in Circle: 78543621
+Pi Estimation: 3.141745
+Parallel Process took 3.656164 seconds
+
+Serial Process took 3.663038 seconds
+Speedup is 1.001880
+Efficiency is 1.001880
+
+-------------------------------------------------------------
+
+10^(9) tosses, using 1 processors...
+
+Estimating Pi through 1000000000 tosses
+
+Total Number in Circle: 785394053
+Pi Estimation: 3.141576
+Parallel Process took 34.533506 seconds
+
+Serial Process took 34.455960 seconds
+Speedup is 0.997754
+Efficiency is 0.997754
+
+--------------------------------------------------------------
+2 Processors
+--------------------------------------------------------------
+
+10^(5) tosses, using 2 processors...
+
+Estimating Pi through 100000 tosses
+
+Total Number in Circle: 78586
+Pi Estimation: 3.143440
+Parallel Process took 0.002208 seconds
+
+Serial Process took 0.010297 seconds
+Speedup is 4.663760
+Efficiency is 2.331880
+
+--------------------------------------------------------------
+
+10^(6) tosses, using 2 processors...
+
+Estimating Pi through 1000000 tosses
+
+Total Number in Circle: 785336
+Pi Estimation: 3.141344
+Parallel Process took 0.021761 seconds
+
+Serial Process took 0.054531 seconds
+Speedup is 2.505943
+Efficiency is 1.252971
+
+---------------------------------------------------------------
+
+10^(7) tosses, using 2 processors...
+
+Estimating Pi through 10000000 tosses
+
+Total Number in Circle: 7856078
+Pi Estimation: 3.142431
+Parallel Process took 0.192544 seconds
+
+Serial Process took 0.362264 seconds
+Speedup is 1.881460
+Efficiency is 0.940730
+
+-----------------------------------------------------------------
+
+10^(8) tosses, using 2 processors...
+
+Estimating Pi through 100000000 tosses
+
+Total Number in Circle: 78551340
+Pi Estimation: 3.142054
+Parallel Process took 1.944877 seconds
+
+Serial Process took 3.881737 seconds
+Speedup is 1.995878
+Efficiency is 0.997939
+
+------------------------------------------------------------------
+
+10^(9) tosses, using 2 processors...
+
+Estimating Pi through 1000000000 tosses
+
+Total Number in Circle: 785388858
+Pi Estimation: 3.141555
+Parallel Process took 18.715354 seconds
+
+Serial Process took 37.489689 seconds
+Speedup is 2.003152
+Efficiency is 1.001576
+
+--------------------------------------------------------------
+4 Processors
+--------------------------------------------------------------
+
+10^(5) tosses, using 4 processors...
+
+Estimating Pi through 100000 tosses
+
+Total Number in Circle: 78408
+Pi Estimation: 3.136320
+Parallel Process took 0.001746 seconds
+
+Serial Process took 0.010345 seconds
+Speedup is 5.925296
+Efficiency is 1.481324
+
+-------------------------------------------------------------------
+
+10^(6) tosses, using 4 processors...
+
+Estimating Pi through 1000000 tosses
+
+Total Number in Circle: 786068
+Pi Estimation: 3.144272
+Parallel Process took 0.015180 seconds
+
+Serial Process took 0.072883 seconds
+Speedup is 4.801404
+Efficiency is 1.200351
+
+-------------------------------------------------------------------
+
+10^(7) tosses, using 4 processors...
+
+Estimating Pi through 10000000 tosses
+
+Total Number in Circle: 7854744
+Pi Estimation: 3.141898
+Parallel Process took 0.121101 seconds
+
+Serial Process took 0.502781 seconds
+Speedup is 4.151744
+Efficiency is 1.037936
+
+-------------------------------------------------------------------
+
+10^(8) tosses, using 4 processors...
+
+Estimating Pi through 100000000 tosses
+
+Total Number in Circle: 78561444
+Pi Estimation: 3.142458
+Parallel Process took 1.193328 seconds
+
+Serial Process took 4.618944 seconds
+Speedup is 3.870642
+Efficiency is 0.967661
+
+--------------------------------------------------------------------
+
+10^(9) tosses, using 4 processors...
+
+Estimating Pi through 1000000000 tosses
+
+Total Number in Circle: 785420000
+Pi Estimation: 3.141680
+Parallel Process took 11.359686 seconds
+
+Serial Process took 44.679216 seconds
+Speedup is 3.933138
+Efficiency is 0.983285
+
+--------------------------------------------------------------
+8 Processors
+--------------------------------------------------------------
+
